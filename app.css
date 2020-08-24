@@ -25,7 +25,9 @@
         .bu{
                height:85pX;
                width:90pX;
-		left:40%;
+		 position absolute;
+          top:60%;
+          left:50%;
              background-color: lightgreen;
         }
 
