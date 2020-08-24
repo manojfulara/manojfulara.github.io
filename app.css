@@ -9,7 +9,7 @@
          height:290pX;
          width: 300pX;
          align-content:  center;
-          position :absolute;
+          position :fixed;
            top: 50%;
             left: 50%;
              margin: -100pX 0 0 -150pX;
@@ -46,7 +46,7 @@
          align-content:  center;
            border-radius:40px;
            border-style: solid;
-          position :absolute;
+          position :fixed;
            top: 40%;
             left: 50%;
             font-size: 30px;
@@ -87,7 +87,7 @@
          align-content:  center;
            border-radius:40px;
            border-style: solid;
-          position :absolute;
+          position :fixed;
            top: 5%;
             left: 40%;
             font-size: 20px;
@@ -108,7 +108,7 @@
          align-content:  center;
            background-color: white;
            border-style: solid;
-          position :relative;
+          position :fixed;
        border-radius:30px;
             left: 40%;
              
