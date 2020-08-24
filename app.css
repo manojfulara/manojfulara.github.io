@@ -10,7 +10,7 @@
          width: 300pX;
          align-content:  center;
           position :absolute;
-           top: 50%;
+           top: 60%;
             left: 50%;
              margin: -100pX 0 0 -150pX;
            }
@@ -18,13 +18,14 @@
            table{
             align-content:  center;
             border-style: solid;
-            top: 50%;
+            top: 60%;
             left: 50%;
             
            }
         .bu{
                height:85pX;
                width:90pX;
+		left:40%;
              background-color: lightgreen;
         }
 
