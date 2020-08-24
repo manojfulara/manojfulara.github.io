@@ -2,6 +2,7 @@
   body{
 	 background-image: linear-gradient(to right, violet,orange,yellow,green,blue,indigo,violet);
 	          background-size:cover;
+	  position:relative;
              }
 
            .a{
