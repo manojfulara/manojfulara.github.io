@@ -2,8 +2,12 @@
   #tic{
 	 background-color:blue;
 	          background-size:cover;
-	  
+	    animation: mymove 5s infinite;
              }
+   @keyframes mymove {
+  from {background-color: lightblue;}
+  to {background-color: red;}
+}
 
            .a{
          background-color: white;
