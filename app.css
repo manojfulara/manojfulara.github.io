@@ -1,0 +1,114 @@
+
+  body{
+	 background-image: linear-gradient(to right, violet,orange,yellow,green,blue,indigo,violet);
+	          background-size:cover;
+             }
+
+           .a{
+         background-color: white;
+         height:290pX;
+         width: 300pX;
+         align-content:  center;
+          position :absolute;
+           top: 50%;
+            left: 50%;
+             margin: -100pX 0 0 -150pX;
+           }
+
+           table{
+            align-content:  center;
+            border-style: solid;
+            top: 50%;
+            left: 50%;
+            
+           }
+        .bu{
+               height:85pX;
+               width:90pX;
+             background-color: lightgreen;
+        }
+
+       
+
+         #p2{
+         teXt-decoration-color: white;
+         teXt-transform: uppercase;
+          font-size: 20pX;
+         color:blue;
+         teXt-shadow: 10pX;
+         teXt-decoration-style: solid;
+         background-color: white;
+         height:50pX;
+         width: 300pX;
+         teXt-align: center;
+         align-content:  center;
+           border-radius:40px;
+           border-style: solid;
+          position :absolute;
+           top: 40%;
+            left: 50%;
+            font-size: 30px;
+            font-family: Aerial;
+             margin: -100pX 0 0 -150pX;
+         }
+         
+
+           
+           .z{
+           
+          height:85pX;
+           	   width:90pX;
+           }
+           input[value]{
+            teXt-decoration-color: white;
+         	teXt-transform: uppercase;
+          font-size: 60pX;
+         color:blue;
+         teXt-shadow: 10pX;
+         teXt-decoration-style: bold;
+         font-family:Aerial; 
+
+          teXt-align: center;
+         align-content:  center;
+           }
+       .dekho{
+         teXt-decoration-color: white;
+         teXt-transform: uppercase;
+          font-size: 20pX;
+         color:blue;
+         teXt-shadow: 10pX;
+         teXt-decoration-style: bold;
+         background-color: white;
+         height:40pX;
+         width: 300pX;
+         teXt-align: center;
+         align-content:  center;
+           left:40%;
+           border-radius:40px;
+           border-style: solid;
+          position :fixed;
+        border-bottom-color: blue;
+          }
+          .d{
+           teXt-decoration-color: white;
+         teXt-transform: uppercase;
+          font-size: 20pX;
+         color:blue;
+         teXt-shadow: 10pX;
+         teXt-decoration-style: bold;
+         border-bottom-color: blue;
+         border-bottom: 5px;
+         height:20pX;
+         width: 300pX;
+         teXt-align: center;
+         align-content:  center;
+           background-color: white;
+           border-style: solid;
+          position :fixed;
+       border-radius:30px;
+            left: 40%;
+             
+
+
+
+          }
