@@ -10,7 +10,7 @@
          width: 300pX;
          align-content:  center;
           position :absolute;
-           top: 60%;
+           top: 50%;
             left: 50%;
              margin: -100pX 0 0 -150pX;
            }
@@ -18,17 +18,16 @@
            table{
             align-content:  center;
             border-style: solid;
-            top: 60%;
+            top: 50%;
             left: 50%;
             
            }
         .bu{
-               height:50pX;
-               width:50pX;
-		 position absolute;
-          top:60%;
-          left:50%;
+
+               height:85pX;
+               width:90pX;
              background-color: lightgreen;
+             margin:5px;
         }
 
        
@@ -75,23 +74,25 @@
          align-content:  center;
            }
        .dekho{
+         
          teXt-decoration-color: white;
          teXt-transform: uppercase;
-          font-size: 20pX;
+          
          color:blue;
-         teXt-shadow: 10pX;
-         teXt-decoration-style: bold;
+         teXt-decoration-style: solid;
          background-color: white;
-         height:40pX;
+         height:30pX;
          width: 300pX;
          teXt-align: center;
          align-content:  center;
-           left:40%;
            border-radius:40px;
            border-style: solid;
-          position :fixed;
-        border-bottom-color: blue;
-          }
+          position :absolute;
+           top: 5%;
+            left: 40%;
+            font-size: 20px;
+            font-family: Aerial;
+             margin: 10px;}
           .d{
            teXt-decoration-color: white;
          teXt-transform: uppercase;
@@ -107,7 +108,7 @@
          align-content:  center;
            background-color: white;
            border-style: solid;
-          position :fixed;
+          position :relative;
        border-radius:30px;
             left: 40%;
              
