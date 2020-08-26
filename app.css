@@ -1,38 +1,47 @@
 
-  #tic{
-	
+  body{
+	 
 	          background-size:cover;
-	    animation: mymove 5s infinite;
+      animation: mymove 5s infinite;
              }
-   @keyframes mymove {
+        @keyframes mymove {
   from {background-color: lightblue;}
   to {background-color: red;}
 }
-
            .a{
          background-color: white;
          height:290pX;
          width: 300pX;
-         align-content:  center;
+         align-content:center;
           position :fixed;
            top: 50%;
-            left: 50%;
-             margin: -100pX 0 0 -150pX;
+            left: 40%;
+             
            }
 
            table{
             align-content:  center;
             border-style: solid;
-            top: 50%;
-            left: 50%;
+            
             
            }
+
+       #k{
+        height:40px;
+        width:50px;
+        color:purple;
+       font-family:aerial;
+       font-size:15px;
+       background-color:lightblue;
+
+       }
+
         .bu{
 
-               height:85pX;
-               width:90pX;
+               height:60pX;
+               width:60pX;
              background-color: lightgreen;
-             margin:5px;
+        
         }
 
        
@@ -51,10 +60,10 @@
          align-content:  center;
            border-radius:40px;
            border-style: solid;
-          position :fixed;
+          position :absolute;
            top: 40%;
             left: 50%;
-            font-size: 30px;
+            
             font-family: Aerial;
              margin: -100pX 0 0 -150pX;
          }
@@ -116,8 +125,5 @@
           position :fixed;
        border-radius:30px;
             left: 40%;
-             
-
-
 
           }
