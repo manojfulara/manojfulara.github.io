@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 <HEAD>
-
+<meta content='width=device-width, initial-scale=1' name='viewport'>
    
 <link rel="stylesheet" type="text/css" href="app.css">
 <script type="text/javascript" src="app1.js"></script> 
@@ -12,7 +12,7 @@
   <div align="center" class="d">WELCOME TO TIC TAC TOE</div>
 <br>
 <br>
-<div class="dekho"> player 1 (X) or player 2 (O)
+<div class="dekho"> player 1 (X) or player 2 (O)<button id="k"  onclick="newgame()">NEW GAME</button>
 <br><br><div>
 <input type="button"  class="bu" value="X" onclick="input('X')">&nbsp&nbsp<input type="button" value="O" class="bu" onclick="input('O')"></button></div>
 </div>
@@ -23,7 +23,7 @@
 
 <br>
 <div id="p2"></div>
-
+<br><br>
 <div class="a" id="q" align=center>
 	<table >
 		<tr><td  ><input class="z" type='button'id="0" value="" onclick="test(this)"></td>
