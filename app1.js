@@ -22,9 +22,9 @@
  function test(e){
     if(c==undefined){c="X"; m="O";}
 if(flag==0){ flag=1 ; count++;document.getElementById("q").style.backgroundColor = "blue";
-     document.getElementById(e.id).value=c;}
+     document.getElementById(e.id).value=c; active=0;}
 else if(flag==1){flag=0 ;count++;document.getElementById("q").style.backgroundColor = "violet";
-     document.getElementById(e.id).value=m; }
+     document.getElementById(e.id).value=m; active=1; }
  process(count);
 
  }
