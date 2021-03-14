@@ -1,0 +1,112 @@
+<!doctype html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+div{
+  
+height:150px;
+width:150px;
+background-color: red;
+border-radius: 10%;
+color:black;
+        color:blue;
+    text-align: center;
+    font-size: 60px;
+      font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+    font-style: oblique;
+}
+
+  
+  .a{
+      position:relative;
+    top:150px;
+    left:100px;
+    
+  }
+  .b{
+  position:relative;
+    top:-50px;
+    left:400px;
+  
+  }
+
+
+  body{
+    background-color: black;
+  }
+  .z{
+position: relative;
+    top:100px;
+    left:200px;
+    height:50px;
+    width:200px;   
+    color:blue;
+   
+    text-align: center;
+    font-size: 40px;
+    
+  }
+  
+  button{
+    position: relative;
+    top:-10px;
+    left:300px;
+    background-color: #7FFFD4;
+    border: 3px solid red;
+    border-radius:20%;
+    font-size: 20px;
+  }
+  .x{
+    height:50px;
+    width:250px;
+    position: relative;
+    top:30px;
+    left:170px;
+background-color: black;    
+    color :#ADFF2F;
+   text-transform: capitalize;
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+    font-style: oblique;
+    font-size:25px;
+    
+  }
+</style>
+</head>
+<body>
+  <div class="x">welcome to random game</div>
+  
+  
+  <div class="z" id="z1"></div>
+  <p class="a">player 1</p>
+<div id="demo" class="a">
+</div>
+  <p class="b">player 2</p>
+  <div id="demo1" class="b">
+</div>
+
+<button onclick="start()">start</button>
+<script>
+
+function start(){
+var v=Math.round((Math.random()*5)+1);
+  var v1=Math.round((Math.random()*5)+1);
+
+document.getElementById("demo").innerHTML=v;
+  document.getElementById("demo1").innerHTML=v1;
+  if(v==v1){
+document.getElementById("z1").innerHTML="draw";
+  }  
+  else if(v1>v){
+document.getElementById("z1").innerHTML="player2 won";
+  
+  }
+  else{
+  document.getElementById("z1").innerHTML="player1 won";
+  }
+}
+</script>
+</body>
+</html>
